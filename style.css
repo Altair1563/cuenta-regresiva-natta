@@ -184,5 +184,26 @@ z-index: -1;
     height:2.7em;
     position:relative;
   }
+
+  .countdownHolder {
+    width: 50%;
+    margin: 0 auto;
+    font: 40px / 1.5 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    letter-spacing: -10px;
+    position: relative;
+    bottom: 40px;
+}
+
+  .email input[type="email"] {
+    background: #403c3b;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    width: 80%;
+    padding: 20px;
+    font-size: 15px;
+    border: 2px solid #eadada;
+}
   
 }
