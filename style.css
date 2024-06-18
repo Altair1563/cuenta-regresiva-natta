@@ -164,10 +164,25 @@ z-index: -1;
 
   .wrapper{
     position: relative;
-    background-image: url(img/gravity.png);
+    background-image: url(img/fondo2-cel.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 40
+  }
+
+  .countdownHolder{
+    margin:0 auto;
+    letter-spacing:-10px;
+    position: relative;
+    bottom: 40px;
+  
+  }
+
+  .countDiv{
+    display:inline-block;
+    width:40px;
+    height:2.7em;
+    position:relative;
   }
   
 }
