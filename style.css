@@ -156,6 +156,18 @@ z-index: -1;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 40
+  }
+  
 }
+
+@media (max-width: 425px) {
+
+  .wrapper{
+    position: relative;
+    background-image: url(img/gravity.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 40
+  }
   
 }
